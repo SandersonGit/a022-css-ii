@@ -1,20 +1,54 @@
 header{
     border-bottom: 1px solid black;
+    text-align: center;
+    background: rgb(2,0,36);
+background: radial-gradient(circle, rgba(2,0,36,0.771551724137931) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+border-top: 0px;
   }
   
+  body{
+    background: rgb(0,212,255);
+background: linear-gradient(90deg, rgba(0,212,255,1) 75%, rgba(36,0,13,0.771551724137931) 100%);
+  }
+
   main{
     width: 800px;
+    height: 400px;
+    
   }
+
   
   aside{
     width: 180px;
-    border: 1px solid black;
+    border: 5px solid black;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 100px;
+    margin-right: 10px;
+    padding: 5px;
+    text-align: center;
+    
+
+  }
+  aside:active{
+    background-color: black;
+    color: white;
+    border: 5px solid gray;
   }
   
   footer{
-    background-color: black;
+    background: rgb(0,212,255);
+background: radial-gradient(circle, rgba(0,212,255,0.6875) 67%, rgba(0,14,36,0.771551724137931) 100%);
     color: white;
     width: 100%;
+    position: relative;
+    bottom: 0;
+    height: 110px;
+    text-align: center;
+    margin-top: 15px;
+    padding: 1px;
+   
   }
   
   button{
@@ -22,3 +56,17 @@ header{
     color: white;
     font-family: serif;
   }
+  section{
+    text-align: justify;
+    margin-right: 30px;
+    margin-left: 10px;
+    color: rgb(20, 17, 17);
+    
+    
+  }
+  .cabecalho{
+    color: blanchedalmond;
+  }
+.titulo{
+  text-align: center;
+}
